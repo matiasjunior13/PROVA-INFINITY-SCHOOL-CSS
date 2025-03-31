@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao CSS</title>
+    <link rel="stylesheet" href="./styles-css.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Bem-vindo à nossa plataforma</h1>
+            <p>Descubra novas oportunidades e ferramentas para melhorar seu dia a dia.</p>
+        </header>
+        <section>
+            <h2>Sobre nós</h2>
+            <p>Somos uma empresa dedicada à inovação tecnológica. Nosso foco é fornecer soluções eficazes e acessíveis para empresas de todos os portes. Com uma equipe especializada, buscamos criar produtos que realmente atendam às necessidades de nossos clientes.</p>
+            <p>Nosso compromisso é com a qualidade, a confiança e o sucesso do seu negócio. Conheça nossas soluções e veja como podemos ajudá-lo a alcançar seus objetivos!</p>
+        </section>        
+    </div>
+
+    <aside>
+        <h3>Dica do dia</h3>
+        <p>Você sabia que pequenas mudanças no seu processo de trabalho podem aumentar significativamente sua produtividade? Experimente organizar seu dia com tarefas mais simples e priorize o que realmente importa.</p>
+        <p>Acompanhe o nosso blog para mais dicas úteis!</p>
+    </aside>
+    <br>
+    <br>
+    <p id="messagem-contato"><b>Abaixo você consegue entrar em contato conosco: </b></p>
+    <form>
+    <fieldset>
+        <label for="name">Digite seu nome: </label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="role">Cargo: </label>
+        <select name="role" id="role">
+            <option selected value="">Selecione o cargo</option>
+            <option value="administrador">Administrador</option>
+            <option value="gerente">Gerente</option>
+            <option value="ceo">CEO</option>
+        </select>
+        <br>
+        <br>
+        <label for="message"><b>Escreva sua mensagem:</b></label>
+        <br>
+        <textarea id="message" rows="10" cols="50" name="message"></textarea>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar informações</button>
+    </form>
+    </fieldset>
+
+    <footer>
+        <p>&copy; 2025 Infinity School</p>
+        <br>
+        <p>Todos os direitos reservados.</p>
+        <p>Entre em contato: <a href="mailto:contato@infinityschool.com">contato@infinityschool.com</a></p>
+    </footer>
+</body>
+</html>
